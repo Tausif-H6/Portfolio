@@ -49,6 +49,6 @@
     ]
   },
   "optionalDependencies": {
-    "fsevents": "^*"
+    "fsevents": "~1.2.4"
   }
 }
