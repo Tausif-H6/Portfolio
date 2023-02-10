@@ -31,7 +31,7 @@
     "web-vitals": "^2.1.4"
   },
   "optionalDependencies": {
-    "fsevents" : "*"
+    "fsevents": "^1.2.4"
   },
   "eslintConfig": {
     "extends": [
