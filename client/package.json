@@ -30,9 +30,6 @@
     "rxjs": "^7.5.4",
     "web-vitals": "^2.1.4"
   },
-  "optionalDependencies": {
-    "fsevents" : "^1.2.7"
-  },
   
   "eslintConfig": {
     "extends": [
