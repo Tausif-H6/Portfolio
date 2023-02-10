@@ -49,7 +49,7 @@
     "web-vitals": "^2.1.4"
   },
   "optionalDependencies": {
-    "fsevents": "^2.0.7"
-}
+    "fsevents": "^2.1.2"
+  }
   
 }
