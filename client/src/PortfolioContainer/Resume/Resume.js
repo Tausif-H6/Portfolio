@@ -9,11 +9,11 @@ function Resume(props) {
 
     const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
   const [carousalOffsetStyle, setCarousalOffsetStyle] = useState({});
-  let fadeInScreenHandler= (screen)=>{
-    if(screen.fadeScreen !== props.id)
-    return
-    Animation.animations.fadeInScreen(props.id)
-}
+//   let fadeInScreenHandler= (screen)=>{
+//     if(screen.fadeScreen !== props.id)
+//     return
+//     Animation.animations.fadeInScreen(props.id)
+// }
 
   const ResumeHeading = (props) => {
     return (
