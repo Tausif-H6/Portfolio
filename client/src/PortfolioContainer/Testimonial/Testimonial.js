@@ -3,7 +3,6 @@ import OwlCarousel from 'react-owl-carousel'
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
-import ScrolServices from '../../utilities/ScrollService';
 import Animation from '../../utilities/Animation';
 import './Testimonial.css';
 import lady from '../../../src/img/Testimonial/puja.jpg';

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Animation from '../../utilities/Animation'
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
-import ScrolServices from '../../utilities/ScrollService'
 import './Resume.css'
 
 
@@ -16,7 +15,6 @@ function Resume(props) {
     Animation.animations.fadeInScreen(props.id)
 }
 
-const fadeInSubcription= ScrolServices.currentScreenFadeIn.subscribe(fadeInScreenHandler);
   const ResumeHeading = (props) => {
     return (
       <div className="resume-heading">

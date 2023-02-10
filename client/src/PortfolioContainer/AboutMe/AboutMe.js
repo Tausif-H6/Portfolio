@@ -1,4 +1,4 @@
-import React ,{useEffect}from 'react'
+import React from 'react'
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import ScrolServices from '../../utilities/ScrollService'
 import Animation from '../../utilities/Animation'
@@ -10,7 +10,6 @@ export default function AboutMe (props) {
         Animation.animations.fadeInScreen(props.id)
     }
 
-    const fadeInSubcription= ScrolServices.currentScreenFadeIn.subscribe(fadeInScreenHandler);
     const SECREEN_CONST = {
         description : "Student at Universiti Teknologi Malaysia. I am interested in MERN stack development. Previously I worked with the front-end and backend. Now I want to be an expert full-stack developer.",
         highlights:{

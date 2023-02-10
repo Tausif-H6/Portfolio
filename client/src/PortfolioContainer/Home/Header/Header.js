@@ -21,7 +21,6 @@ export default function Header() {
 
   }
 
-  let currentScreenSubscription = ScrolServices.currentScreenBroadCaster.subscribe(updateCurrentScreen);
 
 
   const getHeaderOptions = () => {
