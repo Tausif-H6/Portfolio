@@ -3,7 +3,6 @@ import OwlCarousel from 'react-owl-carousel'
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
-import Animation from '../../utilities/Animation';
 import './Testimonial.css';
 import lady from '../../../src/img/Testimonial/puja.jpg';
 import arnabBhai from '../../../src/img/Testimonial/aa.jpg';
@@ -17,11 +16,11 @@ import gs from '../../../src/img/Testimonial/Johana.jpeg';
 
 
 export default function Testimonial(props) {
-    let fadeInScreenHandler = (screen) => {
-        if (screen.fadeScreen !== props.id)
-            return
-        Animation.animations.fadeInScreen(props.id)
-    }
+    // let fadeInScreenHandler = (screen) => {
+    //     if (screen.fadeScreen !== props.id)
+    //         return
+    //     Animation.animations.fadeInScreen(props.id)
+    // }
 
 
 

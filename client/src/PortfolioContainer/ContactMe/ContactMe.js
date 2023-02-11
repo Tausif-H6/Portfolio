@@ -4,7 +4,6 @@ import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import ScrolServices from '../../utilities/ScrollService';
 import Animation from '../../utilities/Animation';
-import Footer from '../Home/Footer/Footer';
 import "./ContactMe.css";
 import Typical from 'react-typical';
 import axios from "axios";

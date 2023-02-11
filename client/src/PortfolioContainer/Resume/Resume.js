@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Animation from '../../utilities/Animation'
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import './Resume.css'
 
